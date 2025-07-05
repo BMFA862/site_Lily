@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(43, 149, 202); 
+}
+
+#fond{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+H1{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+}
+audio {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 80%;
+    max-width: 700px;
+}
+.container{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.anatxt{
+    height: 50vw;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+.coeur, .feux {
+    height: 35vw;
+    max-height: 300px;
+    max-width: 50%;
+    margin: 0 10px;
+}
+
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(180, 222, 252);
+    z-index: 1000;
+}
+
+#loading img {
+    width: 50vw;
+    height: 50vw;
+    max-width: 300px;
+    max-height: 300px;
+}
