@@ -45,6 +45,10 @@ audio {
     margin: 0 10px;
 }
 
+.coeur {
+    border-radius: 10%;
+}
+
 #loading {
     display: flex;
     justify-content: center;
